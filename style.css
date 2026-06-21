@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:white;
+}
+
+.intro-page{
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+.intro-bg{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+/* 오른쪽 아래 꽃 */
+
+.flower-button{
+
+    position:absolute;
+
+    right:70px;
+    bottom:95px;
+
+    width:260px;
+    height:220px;
+
+    background:transparent;
+    border:none;
+    cursor:pointer;
+}
+
+@keyframes flowerSway{
+
+    0%{
+
+        transform:
+                scale(1.15)
+                rotate(-1deg);
+    }
+
+    50%{
+
+        transform:
+                scale(1.18)
+                rotate(1.5deg);
+    }
+
+    100%{
+
+        transform:
+                scale(1.15)
+                rotate(-1deg);
+    }
+}
+
+.transition-cover{
+
+    position:fixed;
+
+    inset:0;
+
+    background:white;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:
+            opacity 0.8s ease;
+}
+
+.transition-cover.active{
+
+    opacity:1;
+}

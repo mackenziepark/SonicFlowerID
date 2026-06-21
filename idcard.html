@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ID Card</title>
+    <link rel="stylesheet" href="idcard.css">
+</head>
+<body>
+
+<div class="idcard-page">
+
+    <img src="assets/idcard.png" class="idcard-bg">
+
+    <!-- Generate ID Card 클릭 영역 -->
+    <button
+        id="generateIdBtn"
+        class="generate-id-area">
+    </button>
+
+    <!-- 꽃 -->
+    <img id="flowerImage" class="flower-image">
+
+    <!-- 텍스트 -->
+    <div id="cardName" class="card-text name-text"></div>
+
+    <div id="cardBirthday"
+         class="card-text birthday-text"></div>
+
+    <div class="card-text place-text">
+        Dankook University
+    </div>
+
+    <div id="cardDate"
+         class="card-text date-text"></div>
+
+</div>
+
+<script src="idcard.js"></script>
+
+</body>
+</html>

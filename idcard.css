@@ -1,0 +1,38 @@
+.flower-image {
+    position: absolute;
+    left: 32.5%;
+    top: 54%;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.card-text {
+    position: absolute;
+    font-family: monospace;
+    font-size: 13px;
+    color: #111;
+    z-index: 20;
+}
+
+.name-text {
+    left: 49.5%;
+    top: 45%;
+}
+
+.birthday-text {
+    left: 55%;
+    top: 52.8%;
+}
+
+.place-text {
+    left: 55.7%;
+    top: 60%;
+}
+
+.date-text {
+    left: 55%;
+    top: 67.5%;
+}

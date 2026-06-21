@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: white;
+}
+
+.generate-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.generate-area {
+    position: absolute;
+    left: 24%;
+    top: 8%;
+    width: 52%;
+    height: 14%;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 30;
+}
+
+#flowerCanvas {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+
+    width: 520px;
+    height: 520px;
+
+    z-index: 10;
+    pointer-events: none;
+}
+
+.loading-message {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+    font-family: monospace;
+    font-size: 32px;
+    color: #555;
+
+    z-index: 100;
+    display: none;
+    pointer-events: none;
+}
+
+.id-card-area {
+
+    position: absolute;
+
+    right: 7%;
+
+    bottom: 17%;
+
+    width: 12%;
+
+    height: 18%;
+
+    background: transparent;
+
+    border: none;
+
+    cursor: pointer;
+
+    z-index: 30;
+
+}
